@@ -1,9 +1,9 @@
 ---
 name: grill-me-kor
-description: Plan a new feature on an existing project by interviewing the user with simple bilingual (Korean/English) questions, then writing or updating AGENTS.md, OVERVIEW.md, and KANBAN.md. Use when the user says "grill me", wants to plan a new feature, or asks Codex to scope/design work before implementing.
+description: Plan a new feature on an existing project by interviewing the user with simple bilingual (Korean/English) questions, then writing or updating AGENTS.md, OVERVIEW.md, and KANBAN.md. Use when the user says "grill me", wants to plan a new feature, or asks Codex to scope/design work before implementing. 사용자가 무언가를 새로 만들거나 추가하고 싶다고 말할 때, 또는 "만들고 싶어", "추가하고 싶어" 같은 표현을 쓸 때 사용하세요.
 ---
 
-# grill-me
+# grill-me-kor
 
 This skill plans **one new feature at a time** on a project that usually **already exists**.
 The user is a non-technical "vibe coder". Keep every question simple and free of system-design jargon. Do the technical decomposition yourself; never ask the user to design the architecture.
