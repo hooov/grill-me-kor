@@ -1,0 +1,10 @@
+name: grill-me
+display_name: Grill Me (Feature Planner)
+description: >-
+  Plan one new feature on an existing project. Scans the repo, asks simple
+  bilingual Korean/English questions, then writes or updates AGENTS.md,
+  OVERVIEW.md, and KANBAN.md, and offers to implement.
+triggers:
+  - grill me
+  - plan a feature
+  - scope this feature
