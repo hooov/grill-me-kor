@@ -8,8 +8,15 @@ description: Plan a new feature on an existing project by interviewing the user 
 This skill plans **one new feature at a time** on a project that usually **already exists**.
 The user is a non-technical "vibe coder". Keep every question simple and free of system-design jargon. Do the technical decomposition yourself; never ask the user to design the architecture.
 
-Questions are asked **bilingually**: Korean first, then English, e.g.
-`이 기능이 무엇을 해야 하나요? / What should this feature do?`
+Questions are asked **bilingually**: Korean first, then English. This applies to **both the question text AND every answer option**. Each option must show the Korean label followed by its English translation, e.g.
+
+```
+이 기능이 무엇을 해야 하나요? / What should this feature do?
+1. 숫자 입력칸 2개 + "계산" 버튼 / Two number fields + a "Calculate" button
+2. 한 줄에 입력하면 바로 결과 표시 / Enter on one line, show result instantly
+```
+
+Never show an option in only one language.
 
 All generated files (AGENTS.md, OVERVIEW.md, KANBAN.md) are written in **Korean only**.
 
@@ -28,18 +35,18 @@ Use this scan to fill in the technical details yourself. Only ask the user about
 
 ## 2. Grill the user about the NEW feature
 
-Ask **one question at a time** and wait for the answer. Keep it simple. Present 2–4 concrete options for each question.
+Ask **one question at a time** and wait for the answer. Keep it simple. Present 2–4 concrete options for each question. **Both the question and every option must be bilingual (Korean / English).**
 
 - If the current Codex surface exposes a structured user-input tool (e.g. Plan mode), use it so options render as a multiple-choice prompt.
 - Otherwise, ask inline in chat with numbered options the user can reply to by number.
 
 Cover only these, in plain language. Skip or merge any the scan already answers; add follow-ups only where the answer is vague:
 
-1. Goal — what should this feature do? / 이 기능이 무엇을 해야 하나요?
-2. Behavior — what should the user see or be able to do? / 사용자가 무엇을 보거나 할 수 있어야 하나요?
-3. Done criteria — how do we know it's finished? / 언제 완성된 걸로 볼까요?
-4. Fit — where does it connect to what already exists? / 기존 기능 중 어디에 연결되나요?
-5. Out of scope — anything it should NOT do? / 하지 말아야 할 것이 있나요?
+1. Goal — 이 기능이 무엇을 해야 하나요? / What should this feature do?
+2. Behavior — 사용자가 무엇을 보거나 할 수 있어야 하나요? / What should the user see or be able to do?
+3. Done criteria — 언제 완성된 걸로 볼까요? / How do we know it's finished?
+4. Fit — 기존 기능 중 어디에 연결되나요? / Where does it connect to what already exists?
+5. Out of scope — 하지 말아야 할 것이 있나요? / Anything it should NOT do?
 
 After each answer, acknowledge in 1 sentence, then ask the next question.
 
