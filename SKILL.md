@@ -1,5 +1,5 @@
 ---
-name: grill-me
+name: grill-me-kor
 description: Plan a new feature on an existing project by interviewing the user with simple bilingual (Korean/English) questions, then writing or updating AGENTS.md, OVERVIEW.md, and KANBAN.md. Use when the user says "grill me", wants to plan a new feature, or asks Codex to scope/design work before implementing.
 ---
 
